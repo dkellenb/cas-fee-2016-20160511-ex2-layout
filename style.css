@@ -1,0 +1,33 @@
+header, footer, nav, aside, main {
+    margin: 0; padding: 0;
+    height: 50px;
+}
+div.wrapper {
+    margin: 20px auto;
+    width: 960px;
+}
+p {
+    margin: 0; padding: 5px;
+}
+header, footer {
+    background-color: yellow;
+}
+nav {
+    width: 20%;
+    float: left;
+    background-color: aqua;
+}
+aside {
+    width: 20%;
+    float: right;
+    background-color: gray;
+}
+main {
+    width: 100%;
+    background-color: green;
+}
+div.content:after {
+    content: " ";
+    clear: both;
+    display: table;
+}
